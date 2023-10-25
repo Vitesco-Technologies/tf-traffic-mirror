@@ -9,7 +9,3 @@ Terraform code to set up an ad-hoc VPC traffic mirror target (EC2 running Ubuntu
 * To connect to the TM target EC2 use SSM
 
 This code has been demonstrated at [Sharkfest 23 EU](https://sharkfest.wireshark.org/sfeu/).
-
-## License
-
-tbd
