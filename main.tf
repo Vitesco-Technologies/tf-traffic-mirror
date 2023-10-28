@@ -1,3 +1,7 @@
+# Copyright 2023 Uli Heilmeier, Vitesco Technologies
+#
+# SPDX-License-Identifier: Apache-2.0
+
 provider "aws" {
   allowed_account_ids = [ var.account_id ]
   assume_role {

@@ -1,3 +1,7 @@
+# Copyright 2023 Uli Heilmeier, Vitesco Technologies
+#
+# SPDX-License-Identifier: Apache-2.0
+
 resource "aws_s3_bucket" "traffic_mirror_s3" {
 
   bucket = "tm-traffic-mirror-s3-${var.region}-${random_string.random.result}"

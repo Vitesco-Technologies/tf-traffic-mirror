@@ -1,3 +1,7 @@
+# Copyright 2023 Uli Heilmeier, Vitesco Technologies
+#
+# SPDX-License-Identifier: Apache-2.0
+
 resource "aws_instance" "tm-ec2-target" {
   ami                    = data.aws_ami.ubuntu-linux.id
   instance_type          = "c7g.xlarge"

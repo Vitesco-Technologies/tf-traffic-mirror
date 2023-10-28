@@ -1,3 +1,7 @@
+# Copyright 2023 Uli Heilmeier, Vitesco Technologies
+#
+# SPDX-License-Identifier: Apache-2.0
+
 data "template_cloudinit_config" "master" {
   gzip          = true
   base64_encode = true

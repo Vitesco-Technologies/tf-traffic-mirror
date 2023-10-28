@@ -1,3 +1,7 @@
+# Copyright 2023 Uli Heilmeier, Vitesco Technologies
+#
+# SPDX-License-Identifier: Apache-2.0
+
 variable "region" {
   description = "The name of AWS region where resources will be deployed to."
 }

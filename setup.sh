@@ -1,4 +1,7 @@
 #!/bin/bash
+# Copyright 2023 Uli Heilmeier, Vitesco Technologies
+#
+# SPDX-License-Identifier: Apache-2.0
 
 device_name="/dev/nvme1n1"
 mount_point="/data"

@@ -1,3 +1,7 @@
+# Copyright 2023 Uli Heilmeier, Vitesco Technologies
+#
+# SPDX-License-Identifier: Apache-2.0
+
 resource "time_sleep" "wait_30_seconds" {
   depends_on = [aws_instance.tm-ec2-target]
 
